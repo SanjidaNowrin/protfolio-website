@@ -27,17 +27,17 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="/about">
+              <a className="nav-link " href="#aboutsection">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Service
+              <a className="nav-link" href="#services">
+                Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#projects">
                 Protfolio
               </a>
             </li>
@@ -46,9 +46,13 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <button class="btn btn-outline-light nav-button ms-2" type="submit">
+            <a
+              class="btn btn-outline-light nav-button ms-2 fw-bolder"
+              type="submit"
+              href="https://drive.google.com/uc?export=download&id=1TcI-FPQVtvuJSCICM0T5Ufzc1kio6C8G"
+            >
               Download Resume
-            </button>
+            </a>
           </ul>
         </div>
       </div>

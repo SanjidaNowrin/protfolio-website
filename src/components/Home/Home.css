@@ -27,18 +27,19 @@
 }
 /* button */
 .btn-main-offer {
-  border: 1px solid #a67227;
-  background-color: #a67227;
+  border: 1px solid #070707;
+  background-color: rgb(243, 243, 243);
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 20px;
   padding: 0.625rem 0.98rem 0.75rem 0.98rem;
-  color: white;
+  color: black;
+  font-weight: 700;
   margin: 2rem;
   cursor: pointer;
 }
 .btn-main-offer:hover {
-  background-color: black;
+  background-color: #a67227;
   color: white;
   transition: 0.2s ease-in-out;
 }

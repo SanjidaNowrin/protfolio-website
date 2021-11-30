@@ -1,0 +1,26 @@
+.about-link {
+  padding-left: 0px;
+}
+
+.about-link li {
+  display: inline-block;
+}
+
+.about-link li a i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #a67227;
+  margin-right: 10px;
+  font-size: 22px;
+  color: #a67227;
+  transition: all 0.3s;
+}
+
+.about-link li a i:hover {
+  color: #222222;
+  background: #d6c6b2;
+  border-color: #d6c6b2;
+}

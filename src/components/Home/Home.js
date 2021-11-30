@@ -26,7 +26,9 @@ const Home = () => {
         }}
       /> */}
       <div className="main-info">
-        <h1>HI! I AM SANJIDA ISLAM NOWRIN</h1>
+        <h2 className="text-white">HI!</h2>
+        <br />
+        <h1>I AM SANJIDA ISLAM NOWRIN</h1>
         <Typed
           className="typed-text"
           strings={[
